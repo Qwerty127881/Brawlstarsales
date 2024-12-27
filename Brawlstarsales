@@ -1,0 +1,169 @@
+The issue might be with the way the mailto: link is formatted. Here's the corrected HTML code for the Gmail link:
+
+<p class="contact">Email: <a href="mailto:brawlstarsales42@gmail.com?subject=Brawl%20Stars%20Account%20Inquiry">brawlstarsales42@gmail.com</a> 📧</p>
+
+Explanation:
+
+mailto:brawlstarsales42@gmail.com opens the default email client.
+
+?subject=Brawl%20Stars%20Account%20Inquiry adds a subject line to the email.
+
+
+Full Code with Fix:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars Account for Sale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+        }
+        .container {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #ffcc00;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .price {
+            color: #ff9900;
+        }
+        .btc {
+            color: #f7931a;
+        }
+        .eth {
+            color: #3c3c3d;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .stats span {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .trophy {
+            color: #ffcc00;
+        }
+        .level {
+            color: #ff4500;
+        }
+        .club {
+            color: #0077ff;
+        }
+        .star-points {
+            color: #ff69b4;
+        }
+        .coins {
+            color: #ffd700;
+        }
+        .pins {
+            color: #32cd32;
+        }
+        .rare {
+            color: #4169e1;
+        }
+        .epic {
+            color: #8a2be2;
+        }
+        .hypercharge {
+            color: #9400d3;
+        }
+        .contact {
+            color: #0077ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BRAWL STARS ACCOUNT FOR SALE ⚡</h1>
+        <h2>Price</h2>
+        <p class="price"><span class="highlight">0.028 BTC</span> (Approx. $1,050 USD) 🪙💰</p>
+        <p class="eth">Ethereum Equivalent: ~0.65 ETH 💎</p>
+
+        <h2>Account Stats</h2>
+        <div class="stats">
+            <p><span class="trophy">Trophies:</span> 11,980 🏆</p>
+            <p><span class="trophy">Highest Trophies:</span> 11,827 🌟</p>
+            <p><span class="level">Level:</span> 66 🔥</p>
+            <p><span class="club">Club:</span> PAI_ON_NO_PLAY 🏢</p>
+            <p>League Season Reset: 11,907 trophies</p>
+            <p><span class="star-points">Star Points:</span> 330 ✨</p>
+            <p>XP Progress: 58%</p>
+            <p><span class="coins">Power Points to Max:</span> 141,140 ⚡</p>
+            <p><span class="coins">Coins to Max:</span> 292,625 💸</p>
+        </div>
+
+        <h2>Personal Records</h2>
+        <p>Unlocked Brawlers: 50 / 89 🤜🤛</p>
+        <p>3v3 Victories: 1,434 🎯</p>
+        <p>Solo Showdown Victories: 81 🥇</p>
+        <p>Duo Showdown Victories: 133 🥈</p>
+        <p>Robo Rumble: Normal 🤖</p>
+        <p>Big Game: Big Brawler</p>
+
+        <h2>Skins</h2>
+        <p>Rare: 25 🎨</p>
+        <p class="rare">Super Rare: 14 🌟</p>
+        <p class="epic">Epic: 7 💥</p>
+        <p class="hypercharge">Mythic: 1 🔮</p>
+        <p>Hypercharge Skins: 1 🟣</p>
+
+        <h2>Hypercharge Brawlers</h2>
+        <p>Unlocked: 2 ✅</p>
+        <p>Locked: 2 🔒</p>
+
+        <h2>Pins</h2>
+        <p class="pins">Common: 46 🟢</p>
+        <p class="rare">Rare: 7 🔵</p>
+        <p class="epic">Epic: 1 🟣</p>
+        <p>Collector's Pins: 50 🎖️</p>
+
+        <h2>Other Items</h2>
+        <p>Player Icons: 90 🖼️</p>
+        <p>Sprays: 47 🎨</p>
+        <p class="coins">Coins: 620 💸</p>
+        <p>Bling: 0 ✨</p>
+        <p>Power Points: 6,152 ⚡</p>
+        <p>Gems: 2 💎</p>
+
+        <h2>Account Tag and Name</h2>
+        <p>#YVU02V09R (Josh)</p>
+
+        <h2>Terms & Conditions</h2>
+        <p>No refunds. All sales are final. 🚫</p>
+
+        <h2>Accepted Payment</h2>
+        <p class="btc">Bitcoin: <span class="highlight">bc1qcruapxgytkeq0xtl4zy5wupkkdglyqzqmdre0e</span></p>
+        <p class="eth">Ethereum: <span class="highlight">0xe1b963048Afa170aBd30EC2B23b40712132E49D7</span></p>
+
+        <h2>Contact Information</h2>
+        <p class="contact">Email: <a href="mailto:brawlstarsales42@gmail.com?subject=Brawl%20Stars%20Account%20Inquiry">brawlstarsales42@gmail.com</a> 📧</p>
+        <p>Serious buyers only 🚨</p>
+    </div>
+</body>
+</html>
+
+This version ensures the email link works correctly. Save and test the file again!
+
